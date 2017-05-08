@@ -1,0 +1,219 @@
+body{
+	background-image: url('img/back.png');
+	font-size: 100%;
+	font-family: Arial, 'Lucida  Sana Unicode';
+	line-height: 1.5;
+		 text-allign left;
+}
+h6{
+	font-size:17px;
+	color:#edd6b2;
+	margin:0;
+	padding:0;
+	font-size:100%;
+	font-weight:normal;
+	text-align:left;
+	float:left;
+
+}
+h2{
+	color: #CF5C3F;
+	
+}
+
+.container{
+	background:#121213;             /*kolor tla za logo*/
+	height:1340px;
+	  position: relative;
+	 overflow: hidden;
+	width:1390px;
+	margin: 0 auto;
+	text-allign: left;	
+	border-radius: 40px;                           /* zaokr¹glanie okienek pomarancozwych w headerze*/
+		-moz-border-radius: 40px;
+		-webkit-border-radius: 40px;
+}
+.top-header img{
+position: relative;
+	 overflow: hidden;
+   width: 35%;     
+   /*wielkosc logo*/
+}
+.img2 img{
+
+	margin-left:840px;
+ position:absolute;
+	 
+   width: 10%;     
+   /*wielkosc logo*/
+}
+.img3 img{
+margin-top:10px;
+	margin-left:475px;
+ position:absolute;
+	 
+   width: 25%;     
+   /*wielkosc logo*/
+}
+.contact{
+	
+	
+	padding:8px;
+	background-color:#354667;
+	top:0px;
+	position:absolute;
+	left:1015px;
+		color: #FFF;                    /* kolor slowa portfolio i about me*/
+font-size:100%;	                            /* wielkosc literek*/
+
+	border-radius: 2px;                           /* zaokr¹glanie okienek pomarancozwych w headerze*/
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	
+}
+a{
+	text-decoration:none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+}
+
+a:hover, a:active {
+	background-color: #348fff;
+	color: #FFF;
+	
+}
+
+.top-header nav{
+	
+	height: 60px;  
+	background: -webkit-linear-gradient(#2a3140,#303847);         /*kolor tla top headera*/
+
+}
+.top-header nav ul{
+	
+	list-style:none;
+	margin: 1% auto;
+}
+.top-header nav ul li{
+	float: left;
+	display: inline;
+}
+.top-header nav a:link, .top-header nav a:link visited{
+	font-family:Arial Black;
+	color: #FFF;                    /* kolor slowa portfolio i about me*/
+font-size:200%;	                            /* wielkosc literek*/
+letter-spacing: 5px;                       /* miedzy literami w headerze*/
+
+	display: inline-block;
+	padding: 10px 205px;                  /*padding/odleglosod scanek  od slow, druga wartosc za szerokosc odpowiada*/
+	height: 40px;                   /*wysokosc zaznaczonego kwaracika pomaranczowego*/
+
+}
+.top-header nav a:hover, .top-header nav a:active ,                                             /*ramka dla ktywnego, i na ktory sie najzedza*/
+.top-header nav .active a:link, .top-header nav .active a:visited{
+	background-color: #354667;                  /* kolor tla dla aktywnego menu*/
+	text-shadow: none;
+	color: #FFF;                  
+}
+
+.top-header nav ul li a{
+	border-radius: 10px;                           /* zaokr¹glanie okienek pomarancozwych w headerze*/
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+}
+
+.content{
+	text-allign:justify;
+	color:white;                   /*kolor opisu*/
+	margin-top:1px;
+	margin-left: auto;
+	margin-right:auto;
+
+	background-color:#121213;       /* tlo dla tekstu opisujacego obrazek */
+	line-height: 19px;                  /*odleglosc miedzy liniami*/
+	width:60%;                            /*szerokosc tekstu*/
+	padding: 0px 10px;
+	border-radius: 10px;                         
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+}
+.titles{
+	font-size:17px;
+	line-height: 17px; 
+	
+	
+}
+#pager{
+	
+	 text-align: center;
+		margin-left: 0px;
+	
+	width: 90%;
+	margin-top:12px;
+	height:140px;
+	 background: #141821;
+	 opacity: 0.25;
+	 transition: all 0.5s ease-in-out 0s;
+	 bottom: 5%;
+}
+#pager:hover{
+	opacity:1;
+}
+#pager img {
+		margin: 10px 5px;
+		opacity:0.3;
+		transition:all .3s ease-in-out 0s;
+		}
+		#pager img:hover {
+		opacity:1;
+		transform:scale(1.05);
+		z-index:100;
+		}
+.backgroundGallery{
+	background: -webkit-linear-gradient(#13151a,#21242b);   /*kolor tla dla galerii*/
+	height:860px;
+	width:1600px;
+	overflow: hidden;
+}
+
+  #gallery {  
+
+    }
+	
+    #gallery img {
+		
+		margin-left:122px;
+		margin-top:10px;
+	
+    }
+	#prev{
+		z-index:500;
+		position:absolute;
+		 top: 0;
+        bottom: 160px;
+        left:40px;
+        margin: auto 10px;
+	}
+		#next{
+		z-index:600;
+		position:absolute;
+		 top: 0;
+        bottom: 160px;
+        right:40px;
+        margin: auto 10px;
+	}
+	
+
+	
+	.mainfooter{
+		color:white;
+		height:40px;
+		background:#101010;
+		
+		margin-left:20px;
+		
+		
+		
+	}

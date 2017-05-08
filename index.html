@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset="UTF-8" http-equiv="Content-Type"/>
+
+<title>Portfolio Aleksander Kosma</title>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>          <!--skrytpy do galerii zdjec-->
+<script type="text/javascript" src="js/cycle2.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" />                        <!--polaczenie z css-->
+<link rel="stylesheet" href="css/fontello.css" type="text/css" />                        <!--polaczenie z css-->
+<link href="img/icon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+
+	<div class="container">
+		<header class="top-header">
+		
+				<div class="contact">
+				<p><i class="icon-mail"></i>
+						 email adress:
+						 kosma.aleksander@gmail.com<br>
+						<i class="icon-mail"></i>
+		artstation site: <a href="https://www.artstation.com/artist/aleksander" >artstation.com/artist/aleksander</a>
+		</p>
+		</div>
+		<div class="img3">
+		<img src="https://s16.postimg.org/52ci1h23p/modeler.png" alt="" >
+		</div>
+		<div class="img2">
+		<img src="img/cube.png" alt="" >
+		</div>
+		<img src="img/logo1.png" alt="" >
+		
+			<nav>
+			<ul>
+				<li class="active"><a href="#"  class="icon-picture"><b>Portfolio</b></a></li>
+				<li><a href="about.html" class="icon-user"><b>About Me</b></a></li>
+		</ul>
+			</nav>
+		</header>
+		<div class="backgroundGallery">
+		<div id="gallery" class="cycle-slideshow"
+		data-cycle-fx = "fade"
+		data-cycle-speed = "600"
+		data-cycle-timeout = "3000"
+		data-cycle-pager = "#pager"
+		data-cycle-pager-template ="<a herf='#'><img src='{{src}}' height=100 width=150/>"
+		data-cycle-next = "#next"
+		data-cycle-prev = "#prev"
+		data-cycle-manual-fx = "scrollHorz"
+		data-cycle-manual-speed = "400"
+		data-cycle-pager-fx ="fade">
+		<img src="img/crab.png" alt="">
+			<img src="img/jeanreno1.png" alt="">
+			<img src="img/robot.png" alt="" >
+			<img src="img/buty1.png" alt="" >
+			<img src="img/old.png" alt="" >
+			<img src="img/skrzynia.png" alt="" >
+			<img src="img/proc.png" alt="" >
+		</div>
+		<div id="pager"></div>
+		
+			<img id="prev" src="img/prev.png" alt="">
+			<img id="next" src="img/next.png" alt="">
+		</div>
+		<div>
+		<div class="content">
+		<header>
+			<h2>My Workflow</h2>
+		</header>
+			
+				<p>
+					I work mainly in Blender and Zbrush to make stills. Last time i started focusing on game art. So now I learn Substance painter and Designer to improve my texture skills. In some cases I use also Photoshop, Max, Maya and many others... It depends on the project. Some of lastests works</p>
+					<div class="titles">
+					<h6>-Crab Knight(2015,November):</h6> Made with Blender, Zbrush, 3D Coat and Substance Painter<br>
+					<h6>-Future Soldier(2015,October):</h6>Fully in Blender to try myself in hardsurface<br>
+					<h6>-Jean Reno(2015,July): </h6>Entairly in Zbrush, only some adjustments in Photoshop. Who doesn't like Leon <i class="icon-emo-laugh"></i><br><br>
+					<hr style="height=10px">
+			</div>
+		</div>
+		</div>
+		
+		<footer class="mainfooter">
+			<p> &copy;<a href="#" title="portfolio">All rights reserved,  Aleksander Kosma, 2016</a></p>
+		</footer>
+	</div>
+	
+</body>
+
+</html>
